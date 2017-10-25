@@ -10,10 +10,10 @@ namespace ${namespace};
 
 /**
  * Description of ${name}
- * @package ${packageName}
- * @subpackage ${subpackageName}
- * @author ${user} <${email}>
- * @version ${version} 
+ * @package 
+ * @subpackage 
+ * @author ${user} <email>
+ * @version 1.0.0
  */
 interface ${name} {
     //put your code here
