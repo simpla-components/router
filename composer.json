@@ -1,0 +1,34 @@
+{
+    "name": "simpla/project",
+    "description": "Default simpla framework project",
+    "keyworks": ["framework","simpla"],
+    "type": "libary",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "username",
+            "email": "username@email.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "dev-master", 
+        "apigen/apigen": "dev-master",
+        "roave/better-reflection": "dev-master#c87d856",
+        "lavoiesl/php-benchmark": "dev-master"        
+    },
+    "autoload": {
+        "Simpla\\":[
+            "src/"
+        ]
+    },
+    "autoload-dev": {
+        "Simpla\\":[
+            "tests/"
+        ]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

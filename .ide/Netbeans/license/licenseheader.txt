@@ -1,0 +1,13 @@
+/**
+ * Simpla - Just a simple Framework
+ *  
+ * The MIT License (MIT)
+ * For full copyright and license information, please see the LICENSE file
+ * 
+ * @link          https://simplaframework.com
+ * @since         1.0.0
+ * @license       https://opensource.org/licenses/mit-license.php MIT License
+ */
+  
+ 
+ 
