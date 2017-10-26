@@ -18,15 +18,19 @@
         "lavoiesl/php-benchmark": "dev-master"        
     },
     "autoload": {
-        "Simpla\\":[
-            "src/"
-        ]
+    	"psr-4": {
+    	    "Simpla\\":[
+    	        "src/"
+    	    ]
+    	}
     },
     "autoload-dev": {
-        "Simpla\\":[
-            "tests/"
-        ]
-    },
+    	"psr-4": {
+    	    "Simpla\\":[
+    	        "tests/"
+    	    ]
+    	}
+    ),
     "minimum-stability": "dev",
     "prefer-stable": true
 }
