@@ -14,9 +14,7 @@
         "php": ">=7.0"
     },
     "require-dev": {
-        "phpunit/phpunit": "dev-master", 
-        "apigen/apigen": "dev-master",
-        "roave/better-reflection": "dev-master#c87d856",
+        "phpunit/phpunit": "dev-master",  
         "lavoiesl/php-benchmark": "dev-master"        
     },
     "autoload": {
