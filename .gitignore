@@ -14,3 +14,8 @@ dist/
 nbdist/
 .nb-gradle/
 /nbproject/private/
+nbproject/
+
+
+.doc/
+.ide/

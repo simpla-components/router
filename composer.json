@@ -1,36 +1,34 @@
 {
-    "name": "simpla/project",
-    "description": "Default simpla framework project",
-    "keyworks": ["framework","simpla"],
-    "type": "libary",
+    "name": "simpla-components/router",
+    "description": "Routing system",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
-            "name": "username",
-            "email": "username@email.com"
+            "name": "Robert Diego de Jesus",
+            "email": "robert.di.jesus@gmail.com"
         }
     ],
     "require": {
-        "php": ">=7.0"
+        "php": ">=5.5.9",   
+        "optimus/onion": "~1.0" 
     },
     "require-dev": {
-        "phpunit/phpunit": "dev-master",  
-        "lavoiesl/php-benchmark": "dev-master"        
+        "phpunit/phpunit": "~5.7"
     },
     "autoload": {
     	"psr-4": {
-    	    "Simpla\\":[
-    	        "src/"
-    	    ]
-    	}
-    },
-    "autoload-dev": {
+    	    "Simpla\\": "src/Simpla",
+            "App\\": "app/"
+    	}  
+    },  
+    "autoload-dev":{
     	"psr-4": {
-    	    "Simpla\\":[
+    	    "Tests\\":[
     	        "tests/"
     	    ]
     	}
-    ),
+    },
     "minimum-stability": "dev",
     "prefer-stable": true
 }
